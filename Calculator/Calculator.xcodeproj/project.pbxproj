@@ -15,6 +15,7 @@
 		4605E08A160AA0DD0084A958 /* CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605E089160AA0DD0084A958 /* CalculatorAppDelegate.m */; };
 		4605E08D160AA0DD0084A958 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4605E08B160AA0DD0084A958 /* MainStoryboard.storyboard */; };
 		4605E090160AA0DD0084A958 /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605E08F160AA0DD0084A958 /* CalculatorViewController.m */; };
+		4605E098160AA22A0084A958 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4605E097160AA22A0084A958 /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		4605E08C160AA0DD0084A958 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4605E08E160AA0DD0084A958 /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		4605E08F160AA0DD0084A958 /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		4605E096160AA22A0084A958 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		4605E097160AA22A0084A958 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 				4605E08B160AA0DD0084A958 /* MainStoryboard.storyboard */,
 				4605E08E160AA0DD0084A958 /* CalculatorViewController.h */,
 				4605E08F160AA0DD0084A958 /* CalculatorViewController.m */,
+				4605E096160AA22A0084A958 /* CalculatorBrain.h */,
+				4605E097160AA22A0084A958 /* CalculatorBrain.m */,
 				4605E080160AA0DD0084A958 /* Supporting Files */,
 			);
 			path = Calculator;
@@ -165,6 +170,7 @@
 				4605E086160AA0DD0084A958 /* main.m in Sources */,
 				4605E08A160AA0DD0084A958 /* CalculatorAppDelegate.m in Sources */,
 				4605E090160AA0DD0084A958 /* CalculatorViewController.m in Sources */,
+				4605E098160AA22A0084A958 /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
